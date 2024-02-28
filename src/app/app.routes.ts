@@ -10,6 +10,7 @@ import { AcademicCalenderComponent } from './academic-calender/academic-calender
 import { AcademicRegulationsComponent } from './academic-regulations/academic-regulations.component';
 import { EEEComponent } from './eee/eee.component';
 import { HeadOfDepartmentComponent } from './head-of-department/head-of-department.component';
+import { AdmissionProcedureComponent } from './admission-procedure/admission-procedure.component';
 
 export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"founder",component:FounderComponent},
@@ -21,6 +22,7 @@ export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"academic-Calender",component:AcademicCalenderComponent},
 {path:"academic-regulations",component:AcademicRegulationsComponent},
 {path:"eee",component:EEEComponent},
-{path:"Head-of-department",component:HeadOfDepartmentComponent}
+{path:"Head-of-department",component:HeadOfDepartmentComponent},
+{path:"admission-procedure",component:AdmissionProcedureComponent}
 
 ];

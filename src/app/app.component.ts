@@ -12,13 +12,14 @@ import { AcademicCalenderComponent } from './academic-calender/academic-calender
 import { AcademicRegulationsComponent } from './academic-regulations/academic-regulations.component';
 import { EEEComponent } from './eee/eee.component';
 import { HeadOfDepartmentComponent } from './head-of-department/head-of-department.component';
+import { AdmissionProcedureComponent } from './admission-procedure/admission-procedure.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet,RouterLink,
     HomeComponent,
-    FounderComponent,ChairmanComponent,PrincipalComponent,DirectorAcadmicsComponent,AdministrativeOfficerComponent,VisionandMissionComponent,AcademicCalenderComponent,AcademicRegulationsComponent,EEEComponent,HeadOfDepartmentComponent],
+    FounderComponent,ChairmanComponent,PrincipalComponent,DirectorAcadmicsComponent,AdministrativeOfficerComponent,VisionandMissionComponent,AcademicCalenderComponent,AcademicRegulationsComponent,EEEComponent,HeadOfDepartmentComponent,AdmissionProcedureComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
