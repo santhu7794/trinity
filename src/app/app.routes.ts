@@ -17,6 +17,7 @@ import { ECEComponent } from './ece/ece.component';
 import { CSEComponent } from './cse/cse.component';
 import { AIMLComponent } from './aiml/aiml.component';
 import { HSComponent } from './hs/hs.component';
+import { MBAComponent } from './mba/mba.component';
 
 export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"founder",component:FounderComponent},
@@ -35,6 +36,7 @@ export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"ece",component:ECEComponent},
 {path:"cse",component:CSEComponent},
 {path:"aiml",component:AIMLComponent},
-{path:"hs",component:HSComponent}
+{path:"hs",component:HSComponent},
+{path:"mba",component:MBAComponent}
 
 ];
