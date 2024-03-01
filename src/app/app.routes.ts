@@ -16,6 +16,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ECEComponent } from './ece/ece.component';
 import { CSEComponent } from './cse/cse.component';
 import { AIMLComponent } from './aiml/aiml.component';
+import { HSComponent } from './hs/hs.component';
 
 export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"founder",component:FounderComponent},
@@ -33,6 +34,7 @@ export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"contact", component:ContactComponent},
 {path:"ece",component:ECEComponent},
 {path:"cse",component:CSEComponent},
-{path:"aiml",component:AIMLComponent}
+{path:"aiml",component:AIMLComponent},
+{path:"hs",component:HSComponent}
 
 ];
