@@ -4,6 +4,10 @@
 .new{
     font-size: xx-large;
     background-color: orange;
+    border-radius: 5px;
+   padding:2px;
+     
+   
 }
 .co{
     font-size: xx-large;

@@ -11,6 +11,9 @@ import { AcademicRegulationsComponent } from './academic-regulations/academic-re
 import { EEEComponent } from './eee/eee.component';
 import { HeadOfDepartmentComponent } from './head-of-department/head-of-department.component';
 import { AdmissionProcedureComponent } from './admission-procedure/admission-procedure.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ContactComponent } from './contact/contact.component';
+import { ECEComponent } from './ece/ece.component';
 
 export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"founder",component:FounderComponent},
@@ -23,6 +26,9 @@ export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"academic-regulations",component:AcademicRegulationsComponent},
 {path:"eee",component:EEEComponent},
 {path:"Head-of-department",component:HeadOfDepartmentComponent},
-{path:"admission-procedure",component:AdmissionProcedureComponent}
+{path:"admission-procedure",component:AdmissionProcedureComponent},
+{path:"gallery" ,component:GalleryComponent},
+{path:"contact", component:ContactComponent},
+{path:"ece",component:ECEComponent}
 
 ];

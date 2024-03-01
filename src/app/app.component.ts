@@ -13,17 +13,20 @@ import { AcademicRegulationsComponent } from './academic-regulations/academic-re
 import { EEEComponent } from './eee/eee.component';
 import { HeadOfDepartmentComponent } from './head-of-department/head-of-department.component';
 import { AdmissionProcedureComponent } from './admission-procedure/admission-procedure.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ContactComponent } from './contact/contact.component';
+import { ECEComponent } from './ece/ece.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,RouterLink,
+  imports: [RouterOutlet, RouterLink,
     HomeComponent,
-    FounderComponent,ChairmanComponent,PrincipalComponent,DirectorAcadmicsComponent,AdministrativeOfficerComponent,VisionandMissionComponent,AcademicCalenderComponent,AcademicRegulationsComponent,EEEComponent,HeadOfDepartmentComponent,AdmissionProcedureComponent],
+    FounderComponent, ChairmanComponent, PrincipalComponent, DirectorAcadmicsComponent, AdministrativeOfficerComponent, VisionandMissionComponent, AcademicCalenderComponent, AcademicRegulationsComponent, EEEComponent, HeadOfDepartmentComponent, AdmissionProcedureComponent, GalleryComponent, ContactComponent,ECEComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'college';
-  
+
 }
