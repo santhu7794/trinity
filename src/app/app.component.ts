@@ -20,6 +20,9 @@ import { CSEComponent } from './cse/cse.component';
 import { AIMLComponent } from './aiml/aiml.component';
 import { HSComponent } from './hs/hs.component';
 import { MBAComponent } from './mba/mba.component';
+import { DEEEComponent } from './deee/deee.component';
+import { DECEComponent } from './dece/dece.component';
+import { DCSEComponent } from './dcse/dcse.component';
 
 @Component({
   selector: 'app-root',
@@ -30,7 +33,8 @@ import { MBAComponent } from './mba/mba.component';
     DirectorAcadmicsComponent, AdministrativeOfficerComponent, VisionandMissionComponent,
     AcademicCalenderComponent, AcademicRegulationsComponent, EEEComponent,
     HeadOfDepartmentComponent, AdmissionProcedureComponent, GalleryComponent,
-    ContactComponent, ECEComponent, CSEComponent,AIMLComponent,HSComponent,MBAComponent],
+    ContactComponent, ECEComponent, CSEComponent,AIMLComponent,HSComponent,MBAComponent,DEEEComponent,DECEComponent,
+  DCSEComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
