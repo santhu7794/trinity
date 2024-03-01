@@ -15,6 +15,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
 import { ECEComponent } from './ece/ece.component';
 import { CSEComponent } from './cse/cse.component';
+import { AIMLComponent } from './aiml/aiml.component';
 
 export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"founder",component:FounderComponent},
@@ -31,6 +32,7 @@ export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"gallery" ,component:GalleryComponent},
 {path:"contact", component:ContactComponent},
 {path:"ece",component:ECEComponent},
-{path:"cse",component:CSEComponent}
+{path:"cse",component:CSEComponent},
+{path:"aiml",component:AIMLComponent}
 
 ];

@@ -17,13 +17,18 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
 import { ECEComponent } from './ece/ece.component';
 import { CSEComponent } from './cse/cse.component';
+import { AIMLComponent } from './aiml/aiml.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, RouterLink,
     HomeComponent,
-    FounderComponent, ChairmanComponent, PrincipalComponent, DirectorAcadmicsComponent, AdministrativeOfficerComponent, VisionandMissionComponent, AcademicCalenderComponent, AcademicRegulationsComponent, EEEComponent, HeadOfDepartmentComponent, AdmissionProcedureComponent, GalleryComponent, ContactComponent,ECEComponent,CSEComponent],
+    FounderComponent, ChairmanComponent, PrincipalComponent,
+    DirectorAcadmicsComponent, AdministrativeOfficerComponent, VisionandMissionComponent,
+    AcademicCalenderComponent, AcademicRegulationsComponent, EEEComponent,
+    HeadOfDepartmentComponent, AdmissionProcedureComponent, GalleryComponent,
+    ContactComponent, ECEComponent, CSEComponent,AIMLComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
