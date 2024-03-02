@@ -23,6 +23,7 @@ import { DECEComponent } from './dece/dece.component';
 import { DCSEComponent } from './dcse/dcse.component';
 import { PlacementComponent } from './placement/placement.component';
 import { TPOComponent } from './tpo/tpo.component';
+import { CRITERIA1Component } from './criteria-1/criteria-1.component';
 
 export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"founder",component:FounderComponent},
@@ -47,6 +48,7 @@ export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"dece",component:DECEComponent},
 {path:"dcse",component:DCSEComponent},
 {path:"placement",component:PlacementComponent},
-{path:"tpo",component:TPOComponent}
+{path:"tpo",component:TPOComponent},
+{path:"criteria-1",component:CRITERIA1Component}
 
 ];
