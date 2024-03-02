@@ -26,6 +26,7 @@ import { DCSEComponent } from './dcse/dcse.component';
 import { PlacementComponent } from './placement/placement.component';
 import { TPOComponent } from './tpo/tpo.component';
 import { CRITERIA1Component } from './criteria-1/criteria-1.component';
+import { Criteria2Component } from './criteria2/criteria2.component';
 
 @Component({
   selector: 'app-root',
@@ -37,7 +38,7 @@ import { CRITERIA1Component } from './criteria-1/criteria-1.component';
     AcademicCalenderComponent, AcademicRegulationsComponent, EEEComponent,
     HeadOfDepartmentComponent, AdmissionProcedureComponent, GalleryComponent,
     ContactComponent, ECEComponent, CSEComponent,AIMLComponent,HSComponent,MBAComponent,DEEEComponent,DECEComponent,
-  DCSEComponent,PlacementComponent,TPOComponent,CRITERIA1Component],
+  DCSEComponent,PlacementComponent,TPOComponent,CRITERIA1Component,Criteria2Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
