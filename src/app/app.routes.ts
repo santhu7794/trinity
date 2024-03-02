@@ -21,6 +21,8 @@ import { MBAComponent } from './mba/mba.component';
 import { DEEEComponent } from './deee/deee.component';
 import { DECEComponent } from './dece/dece.component';
 import { DCSEComponent } from './dcse/dcse.component';
+import { PlacementComponent } from './placement/placement.component';
+import { TPOComponent } from './tpo/tpo.component';
 
 export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"founder",component:FounderComponent},
@@ -43,6 +45,8 @@ export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"mba",component:MBAComponent},
 {path:"deee",component:DEEEComponent},
 {path:"dece",component:DECEComponent},
-{path:"dcse",component:DCSEComponent}
+{path:"dcse",component:DCSEComponent},
+{path:"placement",component:PlacementComponent},
+{path:"tpo",component:TPOComponent}
 
 ];

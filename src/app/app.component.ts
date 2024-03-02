@@ -23,6 +23,8 @@ import { MBAComponent } from './mba/mba.component';
 import { DEEEComponent } from './deee/deee.component';
 import { DECEComponent } from './dece/dece.component';
 import { DCSEComponent } from './dcse/dcse.component';
+import { PlacementComponent } from './placement/placement.component';
+import { TPOComponent } from './tpo/tpo.component';
 
 @Component({
   selector: 'app-root',
@@ -34,7 +36,7 @@ import { DCSEComponent } from './dcse/dcse.component';
     AcademicCalenderComponent, AcademicRegulationsComponent, EEEComponent,
     HeadOfDepartmentComponent, AdmissionProcedureComponent, GalleryComponent,
     ContactComponent, ECEComponent, CSEComponent,AIMLComponent,HSComponent,MBAComponent,DEEEComponent,DECEComponent,
-  DCSEComponent],
+  DCSEComponent,PlacementComponent,TPOComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
