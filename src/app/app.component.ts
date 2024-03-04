@@ -31,6 +31,8 @@ import { Criteria3Component } from './criteria3/criteria3.component';
 import { ExtendedProfileComponent } from './extended-profile/extended-profile.component';
 import { Criteria1dComponent } from './criteria1d/criteria1d.component';
 import { DvvCriteriaComponent } from './dvv-criteria/dvv-criteria.component';
+import { DvvCriteria3Component } from './dvv-criteria3/dvv-criteria3.component';
+import { NoticeBoardComponent } from './notice-board/notice-board.component';
 
 @Component({
   selector: 'app-root',
@@ -43,7 +45,7 @@ import { DvvCriteriaComponent } from './dvv-criteria/dvv-criteria.component';
     HeadOfDepartmentComponent, AdmissionProcedureComponent, GalleryComponent,
     ContactComponent, ECEComponent, CSEComponent,AIMLComponent,HSComponent,MBAComponent,DEEEComponent,DECEComponent,
   DCSEComponent,PlacementComponent,TPOComponent,CRITERIA1Component,Criteria2Component,Criteria3Component,ExtendedProfileComponent,Criteria1dComponent,
-DvvCriteriaComponent],
+DvvCriteriaComponent,DvvCriteria3Component,NoticeBoardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
