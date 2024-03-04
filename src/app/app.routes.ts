@@ -26,6 +26,7 @@ import { TPOComponent } from './tpo/tpo.component';
 import { CRITERIA1Component } from './criteria-1/criteria-1.component';
 import { Criteria2Component } from './criteria2/criteria2.component';
 import { Criteria3Component } from './criteria3/criteria3.component';
+import { ExtendedProfileComponent } from './extended-profile/extended-profile.component';
 
 export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"founder",component:FounderComponent},
@@ -53,6 +54,7 @@ export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"tpo",component:TPOComponent},
 {path:"criteria-1",component:CRITERIA1Component},
 {path:"criteria2",component:Criteria2Component},
-{path:"criteria3",component:Criteria3Component}
+{path:"criteria3",component:Criteria3Component},
+{path:"extended-profile",component:ExtendedProfileComponent}
 
 ];
