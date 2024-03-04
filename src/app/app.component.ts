@@ -29,6 +29,7 @@ import { CRITERIA1Component } from './criteria-1/criteria-1.component';
 import { Criteria2Component } from './criteria2/criteria2.component';
 import { Criteria3Component } from './criteria3/criteria3.component';
 import { ExtendedProfileComponent } from './extended-profile/extended-profile.component';
+import { Criteria1dComponent } from './criteria1d/criteria1d.component';
 
 @Component({
   selector: 'app-root',
@@ -40,7 +41,7 @@ import { ExtendedProfileComponent } from './extended-profile/extended-profile.co
     AcademicCalenderComponent, AcademicRegulationsComponent, EEEComponent,
     HeadOfDepartmentComponent, AdmissionProcedureComponent, GalleryComponent,
     ContactComponent, ECEComponent, CSEComponent,AIMLComponent,HSComponent,MBAComponent,DEEEComponent,DECEComponent,
-  DCSEComponent,PlacementComponent,TPOComponent,CRITERIA1Component,Criteria2Component,Criteria3Component,ExtendedProfileComponent],
+  DCSEComponent,PlacementComponent,TPOComponent,CRITERIA1Component,Criteria2Component,Criteria3Component,ExtendedProfileComponent,Criteria1dComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
