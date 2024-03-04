@@ -31,6 +31,7 @@ import { Criteria1dComponent } from './criteria1d/criteria1d.component';
 import { DvvCriteriaComponent } from './dvv-criteria/dvv-criteria.component';
 import { DvvCriteria3Component } from './dvv-criteria3/dvv-criteria3.component';
 import { NoticeBoardComponent } from './notice-board/notice-board.component';
+import { TimeTableComponent } from './time-table/time-table.component';
 
 export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"founder",component:FounderComponent},
@@ -63,6 +64,7 @@ export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"criteria1d",component:Criteria1dComponent},
 {path:"dvv-criteria",component:DvvCriteriaComponent},
 {path:"dvv-criteria3",component:DvvCriteria3Component},
-{path:"notice-board",component:NoticeBoardComponent}
+{path:"notice-board",component:NoticeBoardComponent},
+{path:"time-table",component:TimeTableComponent}
 
 ];
