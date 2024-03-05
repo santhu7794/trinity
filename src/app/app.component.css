@@ -1,8 +1,10 @@
 .color{
     background-color: beige;
-   
-
-    
+    font-weight: bold;
+  
+}
+.font{
+  font-weight: bold;
 }
 .background{
     background-color:rgb(73, 69, 95);
