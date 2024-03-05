@@ -1,5 +1,8 @@
 .color{
     background-color: beige;
+   
+
+    
 }
 .background{
     background-color:rgb(73, 69, 95);
@@ -8,6 +11,9 @@
 }
 .dropdown:hover>.dropdown-menu {
     display: block;
+  }
+  .c{
+    background-color:rgb(36, 35, 35);
   }
   
   

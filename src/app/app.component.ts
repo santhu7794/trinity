@@ -34,6 +34,10 @@ import { DvvCriteriaComponent } from './dvv-criteria/dvv-criteria.component';
 import { DvvCriteria3Component } from './dvv-criteria3/dvv-criteria3.component';
 import { NoticeBoardComponent } from './notice-board/notice-board.component';
 import { TimeTableComponent } from './time-table/time-table.component';
+import { LibraryComponent } from './library/library.component';
+import { HostelComponent } from './hostel/hostel.component';
+import { TransportComponent } from './transport/transport.component';
+
 
 @Component({
   selector: 'app-root',
@@ -46,7 +50,8 @@ import { TimeTableComponent } from './time-table/time-table.component';
     HeadOfDepartmentComponent, AdmissionProcedureComponent, GalleryComponent,
     ContactComponent, ECEComponent, CSEComponent,AIMLComponent,HSComponent,MBAComponent,DEEEComponent,DECEComponent,
   DCSEComponent,PlacementComponent,TPOComponent,CRITERIA1Component,Criteria2Component,Criteria3Component,ExtendedProfileComponent,Criteria1dComponent,
-DvvCriteriaComponent,DvvCriteria3Component,NoticeBoardComponent,TimeTableComponent],
+DvvCriteriaComponent,DvvCriteria3Component,NoticeBoardComponent,TimeTableComponent,LibraryComponent,
+HostelComponent,TransportComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

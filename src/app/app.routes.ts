@@ -32,6 +32,9 @@ import { DvvCriteriaComponent } from './dvv-criteria/dvv-criteria.component';
 import { DvvCriteria3Component } from './dvv-criteria3/dvv-criteria3.component';
 import { NoticeBoardComponent } from './notice-board/notice-board.component';
 import { TimeTableComponent } from './time-table/time-table.component';
+import { LibraryComponent } from './library/library.component';
+import { HostelComponent } from './hostel/hostel.component';
+import { TransportComponent } from './transport/transport.component';
 
 export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"founder",component:FounderComponent},
@@ -65,6 +68,9 @@ export const routes: Routes = [{ path:"home",component:HomeComponent},
 {path:"dvv-criteria",component:DvvCriteriaComponent},
 {path:"dvv-criteria3",component:DvvCriteria3Component},
 {path:"notice-board",component:NoticeBoardComponent},
-{path:"time-table",component:TimeTableComponent}
+{path:"time-table",component:TimeTableComponent},
+{path:"library",component:LibraryComponent},
+{path:"hostel",component:HostelComponent},
+{path:"transport",component:TransportComponent}
 
 ];
