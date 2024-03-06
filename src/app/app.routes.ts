@@ -36,7 +36,7 @@ import { LibraryComponent } from './library/library.component';
 import { HostelComponent } from './hostel/hostel.component';
 import { TransportComponent } from './transport/transport.component';
 
-export const routes: Routes = [{ path:"home",component:HomeComponent},
+export const routes: Routes = [{path:"",component:HomeComponent},{ path:"home",component:HomeComponent},
 {path:"founder",component:FounderComponent},
 {path:"chairman",component:ChairmanComponent},
 {path:"principal",component:PrincipalComponent},
