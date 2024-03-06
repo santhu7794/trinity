@@ -6,23 +6,27 @@
   font-size: xx-large;
   background-color: orange;
   border-radius: 5px;
-  padding: 2px;
+  padding: 5px;
 
 
+}
+.vision{
+  color:darkslateblue
 }
 
 .co {
   font-size: xx-large;
   background-color: darkcyan;
   border-radius: 5px;
-  padding: 2px;
+  padding: 5px;
+  
 }
 
 .na {
   font-size: xx-large;
   background-color: dimgray;
   border-radius: 5px;
-  padding: 2px;
+  padding: 5px;
 }
 
 .color {
@@ -48,15 +52,15 @@
   overflow: hidden;
   position: relative;
   text-align: center;
-  width: 100%;
+  
 }
 
-.hover-img * {
+/* .hover-img * {
   box-sizing: border-box;
   transition: all 0.45s ease;
-}
+} */
 
-.hover-img:before,
+/* .hover-img:before,
 .hover-img:after {
   background-color: rgba(0, 0, 0, 0.5);
   border-top: 32px solid rgba(0, 0, 0, 0.5);
@@ -71,13 +75,13 @@
   z-index: 1;
   opacity: 0;
   transform: scaleY(2);
-}
+} */
 
-.hover-img img {
+/* .hover-img img {
   vertical-align: top;
   max-width: 100%;
   backface-visibility: hidden;
-}
+} */
 
 .hover-img figcaption {
   position: absolute;
@@ -85,31 +89,31 @@
   bottom: 0;
   left: 0;
   right: 0;
-  align-items: center;
+  /* align-items: center;
   z-index: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  line-height: 1.1em;
+  justify-content: center; */
+  /* line-height: 1.1em; */
   opacity: 0;
-  z-index: 2;
+  /* z-index: 2;
   transition-delay: 0.1s;
-  font-size: 24px;
+  font-size: 24px; */
   font-family: sans-serif;
-  font-weight: 400;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  /* font-weight: 400; */
+  /* letter-spacing: 1px; */
+  /* text-transform: uppercase; */
 }
 
-.hover-img:hover:before,
+/* .hover-img:hover:before,
 .hover-img:hover:after {
   transform: scale(1);
   opacity: 1;
-}
+} */
 
-.hover-img:hover>img {
+/* .hover-img:hover>img {
   opacity: 0.7;
-}
+} */
 
 .hover-img:hover figcaption {
   opacity: 1;
